@@ -13,5 +13,10 @@ struct CowsAndBullsAApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
+        
+        Settings {
+            SettingsView()
+        }
     }
 }
